@@ -27,7 +27,7 @@ export default async function decorate(block) {
 
     // Create table structure
     const table = document.createElement('table');
-    table.className = 'table-data';
+    table.className = 'products-call-table';
 
     // Create header row
     const thead = document.createElement('thead');
